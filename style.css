@@ -1,0 +1,14 @@
+.dropdown-content{
+    display: none;
+    position: absolute;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a {
+    display: block;
+}
+nav ul li a:hover{
+    color: pink;
+    background-color: rgb(254 64 102);transition: 0.3s;
+}
